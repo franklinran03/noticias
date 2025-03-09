@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <title>FSports News</title>
+</head>
+<body>
+    <div class="content">
+        <header>
+            <h1>Noticias Deportivas FSports</h1>
+        </header>
+
+        <nav>
+            <button class="hamburger" id="hamburger">
+                ☰
+            </button>
+            <ul class="nav-links" id="nav-links">
+                <li><a class="btn" href="index.html">Inicio</a></li>
+                <li><a class="btn" href="#about">Nosotros</a></li>
+                <li><a class="btn" href="#">Mas Noticias</a></li>
+                <li><a class="btn" href="#">Contacto</a></li>
+            </ul>
+        </nav>
+
+        <main>
+            <div class="about" id="about">
+                <h2 class="main-title">Noosotros</h2>
+                <p class="txt">En este sitio encontraras las mejores noticias deportivas del mundo a tu pantalla. Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, ex minima. Ullam animi quas quia, vitae, iusto dolore quae qui expedita porro ipsam neque optio autem omnis sit in error.
+                Culpa, fuga necessitatibus. Repellendus voluptatem unde officiis repellat totam excepturi qui eum, illo temporibus mollitia harum! In, non. Eveniet rem qui animi provident aliquid officiis dolorum quod saepe numquam laborum!</p>
+            </div>
+            <table>
+                <tr>
+                    <th>Titulo</th>
+                    <th>Fecha</th>
+                    <th>Fuente</th>
+                </tr>
+                <tr>
+                    <td><a class="tab-link" href="#new1">LeBron James y Cristiano Ronaldo: los dos monstruos de 40 años que agigantan su leyenda en el deporte</a></td>
+                    <td>08/Mar/2025</td>
+                    <td>EL TIEMPO</td>
+                </tr>
+                <tr>
+                    <td><a class="tab-link" href="#new2">Algo pasa con Djokovic, fulminado en Indian Wells</a></td>
+                    <td>08/Mar/2025</td>
+                    <td>EL PAIS</td>
+                </tr>
+                <tr>
+                    <td><a class="tab-link" href="#new3">Bogotá conmemora Día de la Mujer con deporte, recreación y espacios de equidad</a></td>
+                    <td>06/MAR/2025</td>
+                    <td>BOGOTA</td>  
+                </tr>
+
+            </table>
+        </main>
+
+        <div class="news-cards">
+            <h2 class="title">Ultimas Noticias</h2>
+
+            <div class="card" id="new1">
+                <img src="/media/img1.jpg" alt="imagen">
+                <div class="card-body">
+                    <h3 class="card-title">LeBron James y Cristiano Ronaldo: los dos monstruos de 40 años que agigantan su leyenda en el deporte</h3>
+                    <hr>
+                    <p class="card-txt">Para dos monstruos como lo son el basquetbolista LeBron James, quien rompió la marca de los 50.000 puntos en la NBA, y el futbolista Cristiano Ronaldo, que busca los 1.000 goles de su carrera. <a href="https://www.eltiempo.com/deportes/otros-deportes/lebron-james-y-cristiano-ronaldo-los-dos-monstruos-de-40-anos-que-agigantan-su-leyenda-en-el-deporte-3433668" target="_blank">Ver mas.</a></p>
+                    <span class="card-date">08/Mar/2025</span>
+                </div>
+            </div>
+
+            <div class="card" id="new2">
+                <img src="/media/img2.jpg" alt="imagen">
+                <div class="card-body">
+                    <h3 class="card-title">Algo pasa con Djokovic, fulminado en Indian Wells</h3>
+                    <hr>
+                    <p class="card-txt">El campeón de 24 grandes cede ante el repescado Van de Zandschulp (6-2, 3-6 y 6-1) y retrocede al oscuro arranque de 2018, cuando enlazó dos derrotas a la primera <a href="https://elpais.com/deportes/tenis/2025-03-09/algo-pasa-con-djokovic-fulminado-en-indian-wells.html" target="_blank">Ver mas.</a></p>
+                    <span class="card-date">08/Mar/2025</span>
+                </div>
+            </div>
+            
+            <div class="card" id="new3">
+                <img src="/media/img3.jpg" alt="imagen">
+                <div class="card-body">
+                    <h3 class="card-title">Bogotá conmemora Día de la Mujer con deporte, recreación y espacios de equidad</h3>
+                    <hr>
+                    <p class="card-txt">Ciclopaseos, ferias de servicios y talleres lúdicos serán parte de la programación que promoverá la participación femenina en el deporte. <a href="https://bogota.gov.co/mi-ciudad/cultura-recreacion-y-deporte/mas-participacion-femenina-en-los-deportes-con-espacios-inclusivos" target="_blank">Ver mas.</a></p>
+                    <span class="card-date">06/Mar/2025</span>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <p>Franklin Rangel Ariza &copy; 2025</p>
+        </footer>
+
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
