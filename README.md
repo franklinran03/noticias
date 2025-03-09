@@ -9,5 +9,5 @@ _Pagina web sencilla que muestra informacion de noticias deportivas_
 * JS - Para funciones
 
 ## Enlace 
-* [FSports News](https://marvelapiapp.netlify.app)
+* [FSports News](https://noticias-9u1l.onrender.com/)
 
